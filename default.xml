@@ -18,8 +18,9 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="graugans" revision="jethro" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="jethro" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="jethro" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
+  <project remote="graugans"  revision="jethro" name="meta-udoo" path="sources/meta-udoo"/>
 
 </manifest>
