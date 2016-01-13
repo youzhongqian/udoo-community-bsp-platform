@@ -22,17 +22,28 @@ At the end of the commands you have every metadata you need to start work with.
 
 To start a simple image build:
 
+=== For UDOO Quad and Dual development
+
 [source,console]
-For UDOO Quad and Dual development
 $: MACHINE=udooqdl source ./setup-environment build
 $: bitbake core-image-minimal
-For UDOO Neo development
+
+=== For UDOO Neo development
+
+[source,console]
 $: MACHINE=udooneo source ./setup-environment build
 $: bitbake core-image-minimal
 
 You can use any directory to host your build.
 
 The source code is checked out at `fsl-community-bsp/sources`.
+
+== Writing an image to the SD-Card
+Double check the device of your SD-Card!!!
+
+[source,console]
+$: cd tmp/deploy/images/udooqdl
+$: umount /dev/sdd? && zcat core-image-minimal-udooqdl.sdcard.gz | sudo dd of=/dev/sdd bs=32M
 
 == Contributing
 
