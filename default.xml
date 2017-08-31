@@ -13,7 +13,6 @@
   <project remote="yocto" revision="pyro" name="meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
-  
 
   <project remote="graugans" revision="pyro" name="fsl-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
