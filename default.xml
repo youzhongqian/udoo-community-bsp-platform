@@ -6,7 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/graugans" name="graugans"/>
+  <remote fetch="https://github.com/youzhongqian" name="youzhongqian"/>
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
 
   <project remote="yocto" revision="morty" name="poky" path="sources/poky"/>
@@ -15,7 +15,7 @@
   <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
   
 
-  <project remote="graugans" revision="morty" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="youzhongqian" revision="morty" name="fsl-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -24,7 +24,7 @@
   <project remote="freescale" revision="morty" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="morty" name="Documentation" path="sources/Documentation"/>
   
-  <project remote="graugans" revision="morty" name="meta-udoo" path="sources/meta-udoo"/>
+  <project remote="youzhongqian" revision="morty" name="meta-udoo" path="sources/meta-udoo"/>
   
   <project remote="qt5" revision="morty" name="meta-qt5" path="sources/meta-qt5"/>
 </manifest>
