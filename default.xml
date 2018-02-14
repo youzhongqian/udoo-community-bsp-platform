@@ -15,7 +15,7 @@
   <project remote="oe" revision="morty" name="meta-openembedded" path="sources/meta-openembedded"/>
   
 
-  <project remote="youzhongqian" revision="morty" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="youzhongqian" revision="morty" name="udoo-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
